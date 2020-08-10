@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "transport": "ftp",
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "ftp.casatronix.com",
+  "port": "21",
+  "target": "/public_html/webservice",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "casatronix.com",
+  "password": "barbaraj3t3aim3",
+  "watch": []
+}

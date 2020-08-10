@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified' attributeFormDefault='unqualified'>
+
+       <xs:element name='generales'>
+              <xs:complexType>
+                     <xs:sequence>
+                            <xs:element name='pais' type='xs:int'></xs:element>
+                            <xs:element name='estado' type='xs:int'></xs:element>
+                            <xs:element name='ciudad' type='xs:int'></xs:element>
+                            <xs:element name='centro' type='xs:int'></xs:element>
+                            <xs:element name='query' type='xs:string'></xs:element>
+                            <xs:element name='dato001' type='xs:int'></xs:element>
+                            <xs:element name='dato002' type='xs:string'></xs:element>
+                            <xs:element name='dato999' type='xs:string'></xs:element>
+                            <xs:element name='md5' type='xs:string'></xs:element>
+                            <xs:element name='timestamp' type='xs:string'></xs:element>
+                        </xs:sequence>
+                 </xs:complexType>
+          </xs:element>
+   </xs:schema>
